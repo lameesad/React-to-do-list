@@ -1,38 +1,39 @@
-.App {
+body {
+  background: lightyellow;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+section {
+  text-align: center;
+  text-align: -webkit-center;
+}
+.btn {
+  background: rgb(238, 121, 238);
+  margin: 20px;
+}
+ul {
+  text-align: start;
+}
+.add-btn {
+  background: rgb(238, 121, 238);
+  width: 40px;
+  height: 40px;
+}
+.app-title {
+  text-align: center;
+  color: gray;
+}
+.container {
+  border: 5px solid rgba(201, 90, 109, 0.384);
+  border-radius: 25px;
+  background-color: rgba(201, 90, 109, 0.384);
+  width: max-content;
+  height: 400px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.doneItem {
+  text-decoration: line-through;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+notdoneItem {
+  color: black;
 }
